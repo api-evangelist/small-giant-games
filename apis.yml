@@ -1,8 +1,24 @@
 aid: small-giant-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/small-giant-games.png
 name: Small Giant Games
-description: 'Small Giant Games is a company surfaced as a portfolio company of creandum, eqt-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Small Giant Games is a Helsinki, Finland based mobile game studio best known for the
+  hit puzzle-RPG Empires & Puzzles. Founded in 2013, the studio was acquired by Zynga in 2018 (now
+  part of Take-Two Interactive) and continues to operate its live free-to-play mobile titles. As a
+  consumer mobile gaming company it publishes player-facing games and support resources rather than a
+  public developer API. This profile was surfaced as a portfolio company of Creandum and EQT Ventures
+  and processed by the API Evangelist enrichment pipeline, which found no public API, developer portal,
+  OpenAPI, package/SDK, or /.well-known discovery surface — only a live consumer marketing website.'
 url: https://raw.githubusercontent.com/api-evangelist/small-giant-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Games
+- Mobile Gaming
+- Video Games
+- Entertainment
+- Finland
+- Puzzle RPG
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/small-giant-games-domain-security.yml
 - type: Website
   url: https://smallgiantgames.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
